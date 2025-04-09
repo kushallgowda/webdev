@@ -1,0 +1,44 @@
+CSS: Fonts, Text and Color Properties
+(imp video)
+
+Font-family:
+    they are seprated by comma because they are fallback fonts
+Font-style:
+    italic, oblique
+Font-weight:
+    to make it bold
+text-decoration:
+    underline
+    overline
+
+Can also use google fonts
+    use link: in the head tag
+    use import: in style tag
+    (not done in code)
+
+other font Properties
+font-size
+    if its not given then the computer by default size to h1 (can check in insepct)
+    for the default go to inspect->computed
+line height
+    gives space height between 
+letter spcaing
+
+text Properties
+text transform: capatalize, lowe
+text decoration color
+text decoration style
+text decoration thinkcness
+text-indent
+text-overflow: elips, clip
+word break
+text-align center
+
+
+Colors:
+    color
+    5 ways to represent a color
+        HSL is not used much, explained in website
+    background-color:
+        same ways to represent this also 
+    whereever you use colors you use this only to represent 
