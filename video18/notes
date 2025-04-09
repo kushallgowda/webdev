@@ -1,0 +1,16 @@
+CSS - BOX model : Margin Padding and Borders
+Whatever we write in HTML will be a box
+Every box will have content, padding, border, margin
+Look at the website
+By default the browser will add margin and padding and many other CSS, so reset it using the universal selctor
+
+(imp)
+total dimmension is calcuated using : website
+box-sizing: border-box if this is not included then the mentioned height or width is only for the content
+when its mentioned: it will include border and padding included and margin is not included
+box-sizing: border-box changes the defination of height 
+
+margin collapse (imp)
+whenever two margin coincide then max margin will be be put 
+see for example for box1, box2
+photo in phone
