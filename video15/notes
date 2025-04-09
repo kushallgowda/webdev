@@ -1,0 +1,7 @@
+Three ways to add css to html:
+    inline (not a good practice) (used in h1) (have to individually add style to every h1)
+    style tag/internal css (wrriten in head)
+    external (done for ol tag)
+Dont use inline css
+Use internal css only when the websites are small
+Inmost of the cases we use the external CSS
