@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selectors</title>
+    <style>
+        /* Element Selector */
+        div{
+            background-color: red;
+            /* make all the div red */
+        }
+        /* Class Selector */
+        .yellow{
+            background-color: yellow;
+        }
+        /* ID selector */
+        #green{
+            background-color: green;
+        }
+        /*child selectors*/
+        div > p{
+            color: blue;
+            background-color: black;
+        }
+        /* decentend selectors */
+        div p{
+            color: yellow;
+            background-color: black;
+        }
+        /* Universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* pseudo selector */
+        a:visited{
+            color: green;
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            background-color: yellow;
+        }
+        p:first-child{
+            background-color: aqua;
+        }
+        /* where p is the first child  */
+    </style>
+</head>
+<body>
+    <div>
+        I am a div
+    </div>
+    <div class = "yellow">
+        I am not a div
+    </div>
+    <div id="green">
+          I am a green div
+    </div>
+    <div>
+        <p>I am para inside a div</p>
+    </div>
+    <div>
+        <article>
+            <p>I am a para inside a div</p>
+        </article>
+    </div>
+    <!-- This is will not be selected by the child selector, it should only be the direct child -->
+     <!-- To make it work use the descendent selector -->
+      
+    <a href="https://www.google.com">Go to google</a>
+</body>
+</html>
