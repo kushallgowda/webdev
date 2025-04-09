@@ -1,0 +1,15 @@
+CSS: Specificity and Cascade
+    Specificity is based on Cascading algo in the 
+    same type of selctors then the last one will be applied
+    when the selectors are different then Specificity comes in picture
+        inline css > id > class or attribute selctor > element > universal selctor
+        specific calculation in website/ code in github
+        orgin
+        important (they will override the inline css also)
+    
+    attribute selctor in code
+
+Whenver there are complex selectors like h1.yellow.p.red :  addd all
+
+
+Code in github refer it 
